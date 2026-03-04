@@ -1,0 +1,222 @@
+{
+    "business_name": "See-EU",
+    "legal_entity": "See-Globe BV",
+    "url": "https://see-eu.info",
+    "tagline": "Showing Europe to Indians in a safe, economic & friendly way",
+    "industry": "Travel & Tours",
+    "platform": "WordPress + WooCommerce",
+    "meta": {
+        "title": "See Europe through Indian eyes",
+        "description": "Showing Europe to Indians in a safe, economic & friendly way",
+        "og_image": "",
+        "theme_color": ""
+    },
+    "colors": {
+        "primary": "#1e73be",
+        "secondary": "#333b42",
+        "accent": "#ff6900",
+        "sale_badge": "#cf2e2e",
+        "background": "#ffffff",
+        "text": "#32373c",
+        "footer_bg": "#333b42",
+        "top_bar_bg": "#1e73be",
+        "all_colors": [
+            "#1e73be",
+            "#ff6900",
+            "#0693e3",
+            "#cf2e2e",
+            "#fcb900",
+            "#333b42",
+            "#32373c",
+            "#949494",
+            "#eeeeee",
+            "#020381"
+        ]
+    },
+    "fonts": {
+        "heading": "Open Sans",
+        "body": "Open Sans",
+        "all_fonts": [
+            "Open Sans"
+        ]
+    },
+    "logos": [
+        {
+            "src": "http://see-eu.info/wp-content/uploads/2019/08/Logo-1.png",
+            "alt": "See Europe through Indian eyes",
+            "type": "png",
+            "local": "./brand-assets/Logo-1.png"
+        },
+        {
+            "src": "http://see-eu.info/wp-content/uploads/2019/08/LOGO-4-Flag.gif",
+            "alt": "See-EU Flag Logo",
+            "type": "gif",
+            "local": "./brand-assets/LOGO-4-Flag.gif"
+        }
+    ],
+    "favicons": [
+        {
+            "href": "https://see-eu.info/wp-content/uploads/2024/11/cropped-android-chrome-512x512-1-192x192.png",
+            "sizes": "192x192",
+            "local": "./brand-assets/cropped-android-chrome-512x512-1-192x192.png"
+        },
+        {
+            "href": "https://see-eu.info/wp-content/uploads/2024/11/cropped-android-chrome-512x512-1-32x32.png",
+            "sizes": "32x32"
+        }
+    ],
+    "navigation": [
+        {
+            "label": "TRIPS",
+            "url": "https://see-eu.info/"
+        },
+        {
+            "label": "FAQ",
+            "url": "https://see-eu.info/shop/faq/"
+        },
+        {
+            "label": "Login / My Account",
+            "url": "https://see-eu.info/my-account/"
+        },
+        {
+            "label": "Cart",
+            "url": "https://see-eu.info/cart/"
+        }
+    ],
+    "trip_categories": [
+        {
+            "label": "All Upcoming Trips",
+            "count": 13
+        },
+        {
+            "label": "From Belgium",
+            "count": 13
+        },
+        {
+            "label": "From Belgium & Luxembourg",
+            "count": 6
+        },
+        {
+            "label": "From Belgium & the Netherlands",
+            "count": 1
+        },
+        {
+            "label": "From Germany",
+            "count": 0
+        },
+        {
+            "label": "From Luxembourg",
+            "count": 6
+        },
+        {
+            "label": "From Luxembourg & Germany",
+            "count": 0
+        },
+        {
+            "label": "From the Netherlands",
+            "count": 1
+        },
+        {
+            "label": "Tickets Only",
+            "count": 2
+        }
+    ],
+    "pages": {
+        "/": {
+            "title": "Home / All Products",
+            "sections": [
+                "Top Bar (phone + email + login)",
+                "Header (logo + social + menu)",
+                "Hero Image (European landmarks)",
+                "Trip Categories Sidebar",
+                "ALL PRODUCTS Grid (10 of 15 trips)",
+                "Footer (Contact)"
+            ],
+            "key_content": "ALL PRODUCTS — trip cards with pricing and sale badges"
+        },
+        "/shop/faq/": {
+            "title": "FAQ",
+            "sections": [],
+            "key_content": ""
+        },
+        "/my-account/": {
+            "title": "My Account / Login",
+            "sections": [],
+            "key_content": ""
+        },
+        "/cart/": {
+            "title": "Shopping Cart",
+            "sections": [],
+            "key_content": ""
+        }
+    },
+    "offerings": [
+        {
+            "name": "TICKETS – Disneyland Paris",
+            "price": "listed",
+            "type": "tickets"
+        },
+        {
+            "name": "TICKETS – Mount Titlis Switzerland",
+            "price": "listed",
+            "type": "tickets"
+        },
+        {
+            "name": "March 14 : One Day Trip : Cologne",
+            "price": "€25.00–€50.00",
+            "type": "day_trip"
+        },
+        {
+            "name": "March 21–May 10 : Keukenhof Gardens (Every Saturday & selected Sundays)",
+            "price": "€30.00–€60.00",
+            "type": "day_trip"
+        },
+        {
+            "name": "March 14 : MEGA One Day Trip : Giethoorn",
+            "price": "€30.00–€66.00",
+            "type": "day_trip"
+        },
+        {
+            "name": "March 21-22 : Normandy Special : Étretat & Mont Saint-Michel",
+            "price": "€75.00–€200.00",
+            "type": "weekend_trip"
+        },
+        {
+            "name": "April 03-07 : French Riviera Trip : Cannes-Nice-Monaco",
+            "price": "€165.00–€430.00",
+            "type": "long_weekend"
+        },
+        {
+            "name": "March 06-09 : Super Switzerland",
+            "price": "€130.00–€408.00",
+            "type": "multi_day"
+        },
+        {
+            "name": "April 03-07 : Dolomites Dreamscape",
+            "price": "€170.00–€440.00",
+            "type": "multi_day"
+        },
+        {
+            "name": "April 18 : Flower Parade Day Special MEGA Trip : Keukenhof",
+            "price": "€40.00–€100.00",
+            "type": "day_trip"
+        }
+    ],
+    "contact": {
+        "phone": "+32 497 883 883",
+        "phone_hours": "2 PM to 5 PM, Tuesday to Friday (closed Mondays, weekends & Belgian public holidays)",
+        "email": "See-EU@Live.be",
+        "whatsapp": "+32 497 883 883 (urgent inquiries only)",
+        "address": "Terneuzenlaan 38, 9000 GENT (Belgium)",
+        "vat": "BE 680852007",
+        "social": {
+            "facebook": "https://facebook.com",
+            "whatsapp": "https://wa.me",
+            "instagram": "https://www.instagram.com/seeeu79"
+        }
+    },
+    "footer": {
+        "company_name": "See-Globe BV",
+        "copyright": "See-EU is a TM of the See-Globe BV Enterprise. All rights reserved. © 2018"
+    }
+}
