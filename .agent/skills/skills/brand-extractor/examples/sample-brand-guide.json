@@ -1,0 +1,141 @@
+{
+  "business_name": "Acme Digital",
+  "url": "https://acmedigital.com",
+  "tagline": "We build digital experiences that drive growth and transform businesses.",
+  "meta": {
+    "title": "Acme Digital — Web Design & Digital Marketing Agency",
+    "description": "We build digital experiences that drive growth and transform businesses.",
+    "og_image": "https://acmedigital.com/images/og-banner.jpg",
+    "theme_color": "#2563eb"
+  },
+  "colors": {
+    "primary": "#2563eb",
+    "secondary": "#1e40af",
+    "accent": "#f59e0b",
+    "background": "#ffffff",
+    "text": "#111827",
+    "all_colors": [
+      "#2563eb",
+      "#1e40af",
+      "#f59e0b",
+      "#10b981",
+      "#6366f1",
+      "#f3f4f6",
+      "#111827",
+      "#6b7280",
+      "#e5e7eb",
+      "#dbeafe"
+    ]
+  },
+  "fonts": {
+    "heading": "Montserrat",
+    "body": "Open Sans",
+    "all_fonts": ["Montserrat", "Open Sans", "Fira Code"]
+  },
+  "logos": [
+    {
+      "src": "https://acmedigital.com/images/logo.svg",
+      "alt": "Acme Digital Logo",
+      "type": "svg"
+    },
+    {
+      "src": "https://acmedigital.com/images/logo-white.svg",
+      "alt": "Acme Digital Logo White",
+      "type": "svg"
+    }
+  ],
+  "favicons": [
+    {
+      "href": "https://acmedigital.com/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": ""
+    },
+    {
+      "href": "https://acmedigital.com/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "navigation": [
+    { "label": "Home", "url": "https://acmedigital.com/" },
+    { "label": "Services", "url": "https://acmedigital.com/services" },
+    { "label": "Portfolio", "url": "https://acmedigital.com/portfolio" },
+    { "label": "About", "url": "https://acmedigital.com/about" },
+    { "label": "Blog", "url": "https://acmedigital.com/blog" },
+    { "label": "Contact", "url": "https://acmedigital.com/contact" }
+  ],
+  "pages": {
+    "/": {
+      "title": "Home",
+      "sections": ["Hero", "Services Overview", "Featured Work", "Testimonials", "CTA"],
+      "headings": [
+        "We Build Digital Experiences That Drive Growth",
+        "Our Services",
+        "Featured Work",
+        "What Our Clients Say",
+        "Ready to Transform Your Business?"
+      ],
+      "key_content": "We Build Digital Experiences That Drive Growth"
+    },
+    "/services": {
+      "title": "Services",
+      "sections": ["Hero", "Web Design", "SEO", "Digital Marketing", "App Development"],
+      "headings": ["Our Services", "Web Design", "SEO Optimization", "Digital Marketing", "App Development"],
+      "key_content": "Full-stack digital services tailored to your business needs."
+    },
+    "/portfolio": {
+      "title": "Portfolio",
+      "sections": ["Hero", "Project Grid", "Case Studies"],
+      "headings": ["Our Work", "Case Studies"],
+      "key_content": ""
+    },
+    "/about": {
+      "title": "About",
+      "sections": ["Hero", "Story", "Team", "Values"],
+      "headings": ["About Acme Digital", "Our Story", "Meet the Team", "Our Values"],
+      "key_content": "Founded in 2018, Acme Digital has helped over 200 businesses transform their online presence."
+    },
+    "/contact": {
+      "title": "Contact",
+      "sections": ["Contact Form", "Map", "Office Info"],
+      "headings": ["Get In Touch"],
+      "key_content": ""
+    }
+  },
+  "offerings": [
+    {
+      "name": "Web Design",
+      "description": "Custom responsive websites built with modern technologies."
+    },
+    {
+      "name": "SEO Optimization",
+      "description": "Data-driven SEO strategies to increase organic traffic."
+    },
+    {
+      "name": "Digital Marketing",
+      "description": "Full-funnel marketing campaigns across all channels."
+    },
+    {
+      "name": "App Development",
+      "description": "Native and cross-platform mobile applications."
+    }
+  ],
+  "contact": {
+    "phone": "+1 (555) 123-4567",
+    "email": "hello@acmedigital.com",
+    "address": "123 Innovation Drive, San Francisco, CA 94105",
+    "social": {
+      "twitter": "https://twitter.com/acmedigital",
+      "linkedin": "https://linkedin.com/company/acmedigital",
+      "instagram": "https://instagram.com/acmedigital"
+    }
+  },
+  "footer": {
+    "links": [
+      { "label": "Privacy Policy", "url": "https://acmedigital.com/privacy" },
+      { "label": "Terms of Service", "url": "https://acmedigital.com/terms" },
+      { "label": "Careers", "url": "https://acmedigital.com/careers" }
+    ],
+    "copyright": "© 2024 Acme Digital. All rights reserved."
+  }
+}
