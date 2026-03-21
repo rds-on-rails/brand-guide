@@ -43,28 +43,39 @@ When triggered, walk through the following steps to build the e-commerce archite
 
 ---
 
-## 5. User Profiles & Roles (Firebase)
+## 5. User Profiles & Account Management (Firebase)
 - Firebase Auth (via `.env.local`)
+- Registration & Login flows (Email/Password, OAuth providers).
+- **User Profile Management**:
+  - Profile update pages (Name, Phone, Avatars).
+  - Address Book management (Multiple shipping/billing addresses).
+- **Account Recovery & Security**:
+  - Forgot password / Password reset pages.
+  - Email verification flows.
 - Role-based access: Customer / Admin
-- Order history dashboard
+- Order history dashboard and active order tracking.
 
 ---
 
-## 6. Order Management & Admin Module
-- Order confirmation (email + UI)
-- RBAC for `/admin/*`
-- Catalog Studio:
-  - CRUD products in Firestore
-  - Unique IDs
-  - Publish state
-  - Inventory tracking
-- Image upload via Firebase Storage
-- Admin dashboards:
-  - Analytics
-  - Fulfillment
-- Delivery stages:
-  - Digital: Payment Pending → Done → Confirmed
-  - Physical: Ordered → Shipped → Delivered → Return
+## 6. Comprehensive Admin Dashboard & Order Management (Firebase)
+- Built securely on Firestore and Firebase Cloud Functions.
+- RBAC protecting all `/admin/*` routes (requires 'admin' custom claim).
+- **User Management Module**:
+  - View all registered users (syncs `Users` collection).
+  - Manage user roles, reset passwords, and audit account activity.
+- **Order Management Module**:
+  - Live feed of all orders synced from the `Orders` collection.
+  - Order confirmation (email + UI).
+  - Update tracking status, handle fulfillment, and issue refunds.
+  - Delivery stages:
+    - Digital: Payment Pending → Done → Confirmed
+    - Physical: Ordered → Shipped → Delivered → Return
+- **Inventory & Catalog Studio**:
+  - Centralized inventory tracking (syncs `Products` collection).
+  - CRUD products, manage variants, and handle low-stock thresholds.
+  - Image upload via Firebase Storage.
+- **Analytics Dashboard**:
+  - Aggregated sales metrics, payment success rates, and fulfillment statuses.
 
 ---
 
